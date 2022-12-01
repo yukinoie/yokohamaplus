@@ -1,0 +1,457 @@
+
+
+/* 文字コードの設定 */
+@charset "UTF-8";
+/* base--------------------------------------*/
+
+
+body {
+/*-------- フォントの種類の設定 ---------*/
+font-family: "ヒラギノフォント" , "Shree Devanagari 714 ", "ヒラギノ w3", "Hiragino ProN",
+sans-serif;
+background-color: #F0FCFA;
+}
+
+/* --------リンクのアンダーライン消す-------- */ 
+a {
+    text-decoration: none;
+}
+
+/* --------ヘッダー-------- */
+.s-page_header {
+    position: relative;
+    margin: 0 auto;
+    background-image: url(../img/small_page/basicyoga.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    height: 350px;
+}
+
+/* -------黄色い帯------- */
+.header-box {
+    position: absolute;
+    width: 100%;
+    background-color: #C6CE04; 
+    top: 0px;
+    padding: 0 0 350px;
+    opacity: 0.7;
+}
+
+
+.yogapage-title {
+    padding-top: 80px;
+    position:relative;
+    text-align: center;
+    left: 50%;
+    right: -50%;
+    transform: translateX(-50%);
+}
+
+ /* -------ヘッダーコピー------- */
+
+
+.s-page_head_copy {
+    margin-top: 0px;
+    color:#fff;
+    font-size: 16px;
+}
+
+.s-page_head_copy2 {
+    margin-top: 0px;
+    color:#fff;
+    font-size: 16px;
+}
+
+.s-page_head_title {
+    margin-top: 50px;
+    color:#fff;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.s-page_head_speal {
+    position: relative;
+    margin: 0 auto;
+    height: 45px;
+    width: auto; 
+}
+
+.container1 {
+    position: relative;
+    margin: 0px auto;
+    max-width:1000px;
+    align-items: center;
+    background-color: #F0FCFA;
+}
+
+.read-stripe {
+    border: 0;
+    height: 17px;
+    background-image: repeating-linear-gradient(315deg,#1D1D1D 0px,#1D1D1D 1px, rgba(0,0,0,0)0%,rgba(0,0,0,0)50%) ;
+    background-size: 17px 17px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+
+.yoga-read-box {
+    position: relative;
+    margin: 50px auto;
+    box-sizing: border-box;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.yoga-read {
+    box-sizing: border-box;
+    line-height: 150%;
+    padding: 10%;
+    margin:0 auto;
+    color: #5C8DA9;
+    background-color: #fff;
+    width: 100%;
+    z-index: 1;
+    font-size: 14px;
+}
+
+.container2 {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.basicyoga_image {
+    position:relative;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1000px;
+}
+
+.studio_img {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.image_photo_basicyoga {
+    position: relative;
+    margin: 0 auto;
+    width:100% ;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.yoga_groupe {
+    display: flex;
+}
+
+.basicyoga_caption {
+    max-width:100% ;
+    height: auto;
+    padding-bottom: 30px;
+    font-size: 14px;
+    line-height: 150%;
+    font-weight: lighter;
+    color: #1d1d1d;
+}
+
+.image_photo_kobayashiwalking {
+    max-width:300px ;
+    height: 50%;
+    padding-left: 15px;
+    object-fit: cover;
+}
+
+
+.container3 {
+    position: relative;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    max-width: 1000px;
+    padding-top: 50px;
+}
+
+
+.C_and_P {
+    position: relative;
+    margin: 80px auto;
+    max-width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 21px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #fff;
+    color: #B4B942;
+    border: solid 1px #B4B942;
+}
+
+.course_basicyoga_text {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 30px;
+    width:55%;
+    height:auto;
+}
+
+.course_basicyoga_1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.course_basicyoga_1-2{
+    display: block;
+    justify-content: center;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.course_basicyoga_2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: center;
+    width: 100%;
+    margin: 20px auto;
+}
+    
+
+
+.C_and_P_img {
+    max-width: 400px;
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 30px;
+}
+
+.read_title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #B4B942;
+}
+
+.course_title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #1d1d1d;
+    line-height: 150%;
+}
+
+.coin-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4B8FAC;
+}
+
+.course_p {
+    font-size: 14px;
+    color: #1d1d1d;
+    line-height: 150%;
+}
+
+.end-button {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.moushikomi_button {
+    position: relative;
+    margin: 0 auto;
+    display:block;
+    text-align: center;
+    padding-top: 10px;
+    width:280px;
+    height: 130px;
+    line-height: 130px;
+    font-size:17px;
+    font-weight: bold;
+    line-height: 150%;
+    color:#fff;
+    background:#B4B942;
+    box-shadow: 3px 3px 5px #565a22;
+    border: none;
+
+}
+/* マウスオーバーした際の背景色 */
+.moushikomi_button:hover{
+    display:block;
+    text-align:center;
+    margin: 0 auto;
+    width:280px;
+    height: 130px;
+    font-size:17px;
+    font-weight: bold;
+    background:#686b27;
+    box-shadow: 3px 3px 5px #484d1c;
+    border: none;
+    transition: .3s;
+}
+
+/* 閉じるボタン */
+.back_button {
+    text-align: center;
+    align-items: center;
+    margin: 50px auto 0;
+    display:block;
+    line-height:40px;
+    width:260px;
+    font-size:17px;
+    color:#fff;
+    background:#4B8FAC;
+    box-shadow: 3px 3px 5px #2e596b;
+    border: none;
+    transition: .3s;
+}
+/* マウスオーバーした際の背景色 */
+.back_button:hover{
+    text-align: center;
+    background:#2e596b;
+    box-shadow: 3px 3px 5px #1b3541;
+    border: none;
+}
+
+@media screen and (min-width :768px) {
+    /*-------- 共通部分 responsive---------*/
+
+    .s-page_head_copy2 {
+        display: none;
+    }
+
+
+    .yoga_image {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+
+    .course_basicyoga_1-2 {
+        justify-content: center;
+    }
+
+}
+    
+    /*-------- レスポンシブ 767px以下の時の表示-responsive--------*/
+    
+    @media screen and (max-width :767px) {
+        /*-------- 共通部分 responsive---------*/
+
+        .s-page_head_copy {
+            display: none;
+        }
+
+    
+        .container3 {
+            padding-bottom: 50px;
+        }
+
+    
+        .s-page_head_copy {
+            font-size: 15px;
+            line-height: 150%;
+            margin: 0 50px;
+        }
+    
+        .s-page_head_copy_max {
+            display: none;
+        }
+        
+        .s-page_head_title {
+            font-size: 35px;
+        }
+    
+        .yoga-read-box {
+            margin: 50px auto;
+            box-sizing: border-box;
+            max-width: 100%;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+        
+        .yoga_groupe {
+            display: block;
+            justify-content: center;
+        }
+    
+        .basicyoga_image {
+            width: 100%;
+            height: auto;
+          }
+        
+          .image_photo_basicyoga {
+            width: 100%;
+            height: auto;
+          }
+    
+          .image_photo_basicyoga {
+            width: 100%;
+            height: auto;
+        }
+        
+    
+          .C_and_P {
+           margin:0 30px;
+          }
+    
+          .C_and_P_img {
+            width: 100%;
+            padding-left: 30px;
+            height: 190px;
+            object-fit: cover;
+          }
+        
+          .read_title {
+            padding-top: 15px;
+          }
+
+
+          .course_basicyoga_1-2 {
+            position: relative;
+            justify-content: center;
+            width: 100%;
+            margin: 20px 50px 20px 0px;
+        }
+
+          .course_basicyoga_2 {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            width: 100%;
+            margin: 20px auto;
+        }
+        
+          .course_basicyoga_text {
+            padding: 0;
+            margin-top: 0px;
+            width: 100%;
+            max-width: 315px;
+          }
+    
+          .course_title {
+              font-size: 14px;
+              line-height: 150%;
+          }
+
+
+    
+    
+    
+        }
+    
+         /*-------- レスポンシブ 375px以下の時の表示（上記）-------*/
+
+
+
