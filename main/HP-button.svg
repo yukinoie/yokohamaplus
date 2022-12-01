@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="418" height="118" viewBox="0 0 418 118">
+  <defs>
+    <filter id="長方形_15" x="0" y="0" width="418" height="118" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="グループ_6145" data-name="グループ 6145" transform="translate(-431 -3451)">
+    <g id="HAMA_PLUSーHP" data-name="HAMA PLUSーHP" transform="translate(440 3457)">
+      <g id="グループ_6046" data-name="グループ 6046">
+        <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#長方形_15)">
+          <rect id="長方形_15-2" data-name="長方形 15" width="400" height="100" transform="translate(9 6)" fill="#838282"/>
+        </g>
+      </g>
+      <text id="Yokohama_PlusのHPを見る" data-name="Yokohama PlusのHPを見る" transform="translate(200 58.851)" fill="#fff" font-size="20" font-family="SourceHanSansJP-Regular, Source Han Sans JP" letter-spacing="0.03em"><tspan x="-130.06" y="0">Yokohama Plus</tspan><tspan y="0">の</tspan><tspan y="0">HP</tspan><tspan y="0">を</tspan><tspan y="0">見</tspan><tspan y="0">る</tspan></text>
+    </g>
+  </g>
+</svg>

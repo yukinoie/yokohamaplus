@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="298" height="148" viewBox="0 0 298 148">
+  <defs>
+    <filter id="長方形_15" x="0" y="0" width="298" height="148" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="体験レッスンに申し込む" transform="translate(9 6)">
+    <g id="グループ_18" data-name="グループ 18">
+      <g id="グループ_6048" data-name="グループ 6048">
+        <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#長方形_15)">
+          <g id="長方形_15-2" data-name="長方形 15" transform="translate(9 6)" fill="#337f96" stroke="#fff" stroke-width="8">
+            <rect width="280" height="130" stroke="none"/>
+            <rect x="4" y="4" width="272" height="122" fill="none"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="体験レッスンに_申し込む" data-name="体験レッスンに
+申し込む" transform="translate(140 63)" fill="#fff" font-size="19" font-family="HiraginoSans-W6, Hiragino Sans" letter-spacing="0.03em"><tspan x="-68.02" y="0">体験レッスンに</tspan><tspan y="0" font-family="ShreeDev0714-Bold, 'Shree Devanagari \37 14'" font-weight="700"></tspan><tspan x="-38.855" y="26">申し込む</tspan></text>
+  </g>
+</svg>
